@@ -11,6 +11,9 @@ body {
 .footertext2 p {
     margin-left: 235px;
     margin-top: 20px;
+    color: rgba(103, 48, 142, 0.99);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 .terms {
     text-align: justify;
@@ -54,7 +57,7 @@ body {
     border-bottom: 1px solid;
 }
 .center p {
-    padding-left: 55px;
+    padding-left: 50px;
 }
 .width691 {
     width: 691px;
@@ -111,13 +114,14 @@ input[type=number] {
 }
 .border {
     border-bottom: solid 1px #BEB4B4;
+    font-family: 'Open Sans', sans-serif;
 }
 .cartbg {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 5px;
     background-color: #FCF6F6;
-    padding-left: 90px;
+    padding-left: 15%;
     padding-right: 90px;
     margin-right: 215px;
     margin-left: 215px;
@@ -315,10 +319,15 @@ il .dropdown li a {
     flex-wrap: wrap;
 }
 .about-ustext p {
-    color: #000000;
-    font-size: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+	color: #000000;
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	word-spacing: 1px;
+	white-space: normal;
+	letter-spacing: 1px;
+	line-height: 38px;
+	text-shadow: 0px 0px;
 }
 .about-ustext {
     color: #000000;
@@ -326,6 +335,7 @@ il .dropdown li a {
     font-weight: 100;
     width: 50%;
     text-align: left;
+	margin-top: 50px;
 }
 .aboutus-image {
     width: 50%;
@@ -339,7 +349,7 @@ il .dropdown li a {
 }
 .orngbtn h3 {
     position: relative;
-    font-family: 'Segoe UI Emoji';
+   font-family: 'Open Sans', sans-serif;
     color: #67308e;
     font-size: 18px;
     font-weight: 400;
@@ -351,12 +361,12 @@ il .dropdown li a {
     font-family: 'Open Sans', sans-serif;
 }
 .bggrey h2 {
-    border-radius: 11px;
+    border-radius: 6px;
     background-color: rgba(103, 48, 142, 0.99);
     color: #ffffff;
     font-size: 25px;
-    font-weight: 400;
-    padding: 0px 12px;
+    font-weight: 100;
+    padding: 3px 12px;
     display: inline-block;
     margin: 45px;
     font-family: 'Open Sans', sans-serif;
@@ -396,9 +406,9 @@ il .dropdown li a {
 }
 .addtocart h4 {
     color: #202122;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 400;
 }
 .orngbtn1 {
     background-color: rgba(236, 188, 60, 0.72);
@@ -411,6 +421,7 @@ il .dropdown li a {
 }
 .orangebtn2 {
     display: flex;
+	font-family: 'Open Sans', sans-serif;
 }
 .reciepiesbg {
     margin-top: 45px;
@@ -455,6 +466,7 @@ il .dropdown li a {
     margin-top: 45px;
     display: inline-block;
     margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
 }
 .bgrose {
     margin-top: 45px;
@@ -474,11 +486,13 @@ il .dropdown li a {
     justify-content: center;
 }
 .text {
-    width: 64%;
-    margin-left: 260px;
-    margin-top: -65px;
-    font-size: 22px;
+    width: 60%;
+    margin-left: 264px;
+    margin-top: -40px;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-style: initial;
 }
 .video img {
     margin-left: 160px;
@@ -510,6 +524,7 @@ il .dropdown li a {
 .footertext {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
+    color: rgba(103, 48, 142, 0.99);
 }
 .text-decoration {
     text-decoration: none;
@@ -530,19 +545,20 @@ il .dropdown li a {
     display: inline-block;
     margin-left: 40px;
 }
-.Recipies {
-    border-radius: 11px;
+.Recipies h2 {
+    border-radius: 6px;
     background-color: rgba(103, 48, 142, 0.99);
     color: #ffffff;
-    font-size: 16px;
+    font-size: 25px;
     padding: 4px 24px;
     display: inline-block;
     margin: 45px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 .recipies-set {
     width: 322px;
-    height: 443px;
+    height: 372px;
     border-radius: 21px;
     background-color: #ffffff;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.27);
@@ -559,6 +575,8 @@ il .dropdown li a {
     padding: 128px;
     margin: 2%;
     row-gap: 15px;
+    padding-top: 11px;
+    padding-bottom: 54px;
 }
 .topset {
     display: flex;
@@ -582,7 +600,7 @@ il .dropdown li a {
     margin-top: 38px;
 }
 .Recipiesmm {
-    border-radius: 11px;
+    border-radius: 6px;
     background-color: rgba(103, 48, 142, 0.99);
     color: #ffffff;
     font-size: 32px;
@@ -594,6 +612,8 @@ il .dropdown li a {
 }
 .footertext p a {
     text-decoration: none;
+   font-family: 'Open Sans', sans-serif;
+    color: rgba(103, 48, 142, 0.99);
 }
 .googlemap h2 {
     margin-bottom: 18px;
@@ -730,14 +750,16 @@ il .dropdown li a {
     align-items: flex-end;
 }
 .social {
-    border-radius: 11px;
+    border-radius: 6px;
     background-color: rgba(103, 48, 142, 0.99);
     color: #ffffff;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 100;
     padding: 5px 12px;
     display: inline-block;
     margin-bottom: 45px;
+    font-family: 'Open Sans', sans-serif;
+	
 }
 .details {
     row-gap: 2px;
@@ -752,7 +774,7 @@ il .dropdown li a {
     border-right: 1px solid #6d6c6c;
     padding-right: 50px;
     margin: 50px 38px 50px 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .privacy-policy-wrapper p {
     font-size: 18px;
@@ -793,10 +815,37 @@ il .dropdown li a {
     row-gap: 20px;
     position: sticky;
     top: 0;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
 }
 .privacy-section ul {
     display: flex;
     flex-direction: column;
     grid-row-gap: 20px;
+}
+footer {
+    margin-top: -130px;
+}
+.center {
+    text-align: center;
+}
+.textbox {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.fw100 {
+    font-weight: 100;
+}
+.text h3 {
+	font-weight: 400;
+}
+.Recipiesmm h2{
+	font-weight: 100;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	padding: 3px 12px;
 }
